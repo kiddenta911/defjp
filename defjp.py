@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 #####################################
-#	Exploit WP-FILE-MANAGER-0DAY    #
 # code by h0d3_g4n thanks Dev19Feb  #
 #####################################
 import requests, re, urllib2, os, sys, codecs, random               
@@ -63,7 +62,7 @@ def bagian2(url):
         else:
             print ('Target: ' + url + ' ' +ktn6blueblue+ ':(' +ktnred + ' Failed' + CEND)
             pass
-    except Exception as error:
+    except:
         print ('Target: ' + url + ' ' +ktnred + ' EROOR!' + CEND)
         pass
     pass
